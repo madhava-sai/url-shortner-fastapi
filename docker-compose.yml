@@ -6,7 +6,7 @@ services:
     container_name: urlshortner_postgres
     environment:
       POSTGRES_USER: urlshortner
-      POSTGRES_PASSWORD: devpassword@123
+      POSTGRES_PASSWORD: devpassword123
       POSTGRES_DB: urlshortner_db
     ports:
       - "5432:5432"
